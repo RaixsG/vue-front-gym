@@ -48,7 +48,6 @@ const submitForm = () => {
             message.error('Error al crear el cliente')
             console.log(error);
         });
-    console.log(formValue.value);
 }
 
 const data = ref([]);
