@@ -3,17 +3,18 @@
 
 <template>
   <nav class="nav">
-    <a href="">Clientes</a>
+    <RouterLink to="/clientes">Clientes</RouterLink>
     <span>|</span>
-    <a href="">Clientes Frecuentes</a>
+    <RouterLink to="/clientes">Clientes Frecuentes</RouterLink>
     <span>|</span>
-    <a href="">Empleados</a>
+    <RouterLink to="/empleados">Empleados</RouterLink>
     <span>|</span>
-    <a href="">Productos</a>
+    <RouterLink to="/clientes">Productos</RouterLink>
     <span>|</span>
-    <a href="">Tipo de Productos</a>
+    <RouterLink to="/clientes">Tipo de Productos</RouterLink>
   </nav>
   <main>
+    <RouterView />
   </main>
 </template>
 
