@@ -3,7 +3,7 @@ import { NMessageProvider } from 'naive-ui'
 </script>
 
 <template>
-  <n-message-provider>
+  <n-message-provider placement="top-right">
     <nav class="nav">
       <RouterLink to="/">Home</RouterLink>
       <span>|</span>
